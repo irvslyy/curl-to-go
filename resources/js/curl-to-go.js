@@ -475,3 +475,5 @@ function parseCommand(input, options) {
 		return ch == " " || ch == "\t" || ch == "\n" || ch == "\r";
 	}
 }
+
+module.exports = curlToGo;
